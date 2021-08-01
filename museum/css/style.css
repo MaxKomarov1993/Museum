@@ -64,7 +64,6 @@
         margin: 0 auto;
         width: 1920px;
         height: 700px;
-        background-color: #312626; 
     }
     .menuLogo{
         margin-right: 21px;
@@ -122,3 +121,73 @@
     header a {
       color: #ffffff;
     }
+
+    .mainSize{
+      margin: 0 auto;
+      width: 1920px;
+      height: auto;
+     }
+    .welcome{
+      width: 1920px;
+      height: 750px;
+      background-image: url(../img/backWelcome.jpg);
+      background-repeat: no-repeat;
+      background-position: right  bottom;
+      border-image-outset: 240px;
+      background-color: #000000;
+      padding: 0 240px;
+      
+    }
+    .welcome_block{
+      width: 598px;
+      height: 390px;
+      padding-top: 114px;
+      color: #ffffff;
+    }
+    .welcome_text{
+      width: auto;
+      height: 180px;
+      font-family: Forum;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      text-transform: uppercase;
+
+    }
+    .welcome_about{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 33px;
+      letter-spacing: 2px;
+      text-align: left;
+      margin-top: 26px;
+
+    }
+    .welcome_button{
+      display: block;
+      align-items: center;
+      margin-top: 76px;
+    }
+      .buttnSize{
+        height: 75px;
+        width: 360px;
+        border-radius: 10px;
+        background-color: #710707;   
+      }
+    
+    .buttnSize h3{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 26px;
+      letter-spacing: 2px;
+      text-align: center;
+      color: #ffffff;
+    }
+
