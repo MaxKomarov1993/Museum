@@ -66,18 +66,59 @@
         height: 700px;
         background-color: #312626; 
     }
-    .menu_logo{
-        width: 49px;
-        height: auto;
+    .menuLogo{
+        margin-right: 21px;
     }
     .menu_bold{
+      font-family: "forum";
         width: 125px;
         height: 50px;
         font-style: normal;
         font-weight: 400;
         font-size: 28px;
         line-height: 50px;
-        color: #ffffff;
+        letter-spacing: 5px;
         
-        
+    }
+    .menu{
+      color: #ffffff;
+      font-family: "roboto";
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 50px;
+      letter-spacing: 2px;
+      text-align: left;
+      padding-right: 38px;
+      padding-left: 38px;
+    }
+    header{
+      width: 1920px;
+      height: 200px;
+      display: flex;
+      background-color: #000000;
+      align-items: center;
+      
+    }
+
+    .headerRightBlock{
+      width: 720px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      
+      
+    }
+
+    .headerLeftBlock{
+      width: 185px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      margin-left: 242px;
+      margin-right: 495px;
+    }
+
+    header a {
+      color: #ffffff;
     }
