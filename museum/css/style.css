@@ -191,7 +191,7 @@
     }
     .visiting{
       width: auto;
-      height: 1275px;
+      height: 1265px;
       padding: 75px 240px;
       background-color: #ffffff;
     }
@@ -265,6 +265,67 @@
       color: #000;
 
     }
-    
+    .explore{
+      width: auto;
+      height: 1275px;
+      padding: 75px 240px;
+      background-color: #000000;
+      display: flex;
+    }
+    .exploreBorder {
+      width: 660px;
+      height: 90px;
+      padding-bottom: 116px;
+      border-bottom: 3px solid #710707;
+    }
+    .exploreBorder h2{
+      font-family: "Forum";
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #ffffff;
+      text-transform: uppercase;
+
+    }
+    .exploreText{
+      width: 660px;
+      height: 77px;
+      padding-top: 75px;
+    }
+    .exploreTextO{
+      width: 660px;
+      height: 77px;
+      padding-top: 100px;
+    }
+    .exploreTextO h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ffffff;
+    }
+      
+    .exploreText h3{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 39px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      color:#ffffff;      
+    }
+    .exploreLeftBlock{
+      padding-right: 60px;
+    }
+    .exploreRightBlock{
+      padding-top: 15px;
+    }
 
 
