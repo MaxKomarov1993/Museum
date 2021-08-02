@@ -583,7 +583,7 @@
     }
     .contacts{
       width: auto;
-      height: 963px;
+      height: 810px;
       margin: 75px 240px;
     }
     .textContacts{
@@ -596,10 +596,101 @@
       text-align: left;
       color: #9D8665;
       text-transform: uppercase;
+      border-bottom: 3px solid #710707;
+      padding-bottom: 25px;
+    }
+    .contactsBlock{
+      display: block;
+      display: flex;
+      padding-top: 75px;
+     
+    }
+    .textCont{
+      width: auto;
+      height: 221px;
+      padding-right: 200px;
+      padding-top: 10px;
+    }
+    .textCont h3{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000;
 
+    }
+    .textCont h4{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000;
+
+    }
+    .textRoyal{
+      padding-top: 40px;
+    }
+    .textR{
+      padding-top: 20px;
+    }
+    footer{
+      width: auto;
+      height: 300px;
+      background-color: #000;
+      display: flex;
+      padding: 75px 240px;
+    }
+    .logoLouvre{
+      width: 195px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+    }
+    .blockNav{
+     display: flex;
+    }
+    .soceal{
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      margin-left: 20px;
       
     }
-    .textContacts h2{
+    .menu_boldFooter a{
+      font-family: Forum;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #fff;
+      text-transform: uppercase;
+      padding-left: 20px;
+    }
+    .blockNav a{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 50px;
+      letter-spacing: 2px;
+      text-align: left;
+      color: #fff;
+      padding-left: 145px;
+      align-items: center;
+      padding-right: 25px;
 
     }
-
+    .socialBlock{
+      padding-left: 363px;
+      padding-top: 90px;
+    }
+ 
