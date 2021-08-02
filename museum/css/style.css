@@ -133,7 +133,6 @@
       background-image: url(../img/backWelcome.jpg);
       background-repeat: no-repeat;
       background-position: right  bottom;
-      border-image-outset: 240px;
       background-color: #000000;
       padding: 0 240px;
       
@@ -190,4 +189,82 @@
       text-align: center;
       color: #ffffff;
     }
+    .visiting{
+      width: auto;
+      height: 1275px;
+      padding: 75px 240px;
+      background-color: #ffffff;
+    }
+
+    .textBorder{
+      padding-bottom: 25px;
+      border-bottom: 3px solid #710707;
+    }
+    .visiting h2{
+      font-family: Forum;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #9D8665;
+      text-transform: uppercase;
+    }
+    .visitingTopBox{
+      display: flex;
+      padding-top: 75px;
+      padding-bottom: 78px;
+    }
+    .visitingButtomBox{
+      display: flex;
+    }
+    .galery{
+      padding-right: 60px;
+    }
+    .nameGalery h2{
+      font-family: Forum;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #000;
+
+    }
+    .nameGalery{
+      padding-top: 25px;
+      padding-bottom: 9px;
+    }
+    .virtualTour h3{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000;
+
+    }
+    .virtualTour{
+      width: 300px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-top: 2px solid #710707;
+    }
+    .googlePanorama h3{
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000;
+
+    }
+    
+
 
