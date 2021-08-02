@@ -1,0 +1,696 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0; }
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+  :focus, :active {
+    outline: none; }
+  
+  a:focus, a:active {
+    outline: none; }
+  
+  nav, footer, header, aside {
+    display: block; }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; }
+  
+  input, button, textarea {
+    font-family: inherit; }
+  
+  input::-ms-clear {
+    display: none; }
+  
+  button {
+    cursor: pointer; }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+  
+  a, a:visited {
+    text-decoration: none; }
+  
+  a:hover {
+    text-decoration: none; }
+  
+  ul li {
+    list-style: none; }
+  
+  img {
+    vertical-align: top; }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit; }
+  
+  /*--------------------*/
+    
+    
+    .wrapper {
+        margin: 0 auto;
+        width: 1920px;
+        height: 700px;
+    }
+    .menuLogo{
+        margin-right: 21px;
+    }
+    .menu_bold{
+      font-family: "forum";
+        width: 125px;
+        height: 50px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 50px;
+        letter-spacing: 5px;
+        
+    }
+    .menu{
+      color: #ffffff;
+      font-family: "roboto";
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 50px;
+      letter-spacing: 2px;
+      text-align: left;
+      padding-right: 38px;
+      padding-left: 38px;
+    }
+    header{
+      width: 1920px;
+      height: 200px;
+      display: flex;
+      background-color: #000000;
+      align-items: center;
+      
+    }
+
+    .headerRightBlock{
+      width: 720px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      
+      
+    }
+
+    .headerLeftBlock{
+      width: 185px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      margin-left: 242px;
+      margin-right: 495px;
+    }
+
+    header a {
+      color: #ffffff;
+    }
+
+    .mainSize{
+      margin: 0 auto;
+      width: 1920px;
+      height: auto;
+     }
+    .welcome{
+      width: 1920px;
+      height: 750px;
+      background-image: url(../img/backWelcome.jpg);
+      background-repeat: no-repeat;
+      background-position: right  bottom;
+      background-color: #000000;
+      padding: 0 240px;
+      
+    }
+    .welcome_block{
+      width: 598px;
+      height: 390px;
+      padding-top: 114px;
+      color: #ffffff;
+    }
+    .welcome_text{
+      width: auto;
+      height: 180px;
+      font-family: Forum;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      text-transform: uppercase;
+
+    }
+    .welcome_about{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 33px;
+      letter-spacing: 2px;
+      text-align: left;
+      margin-top: 26px;
+
+    }
+    .welcome_button{
+      display: block;
+      align-items: center;
+      margin-top: 76px;
+    }
+      .buttnSize{
+        height: 75px;
+        width: 360px;
+        border-radius: 10px;
+        background-color: #710707;   
+      }
+    
+    .buttnSize h3{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 26px;
+      letter-spacing: 2px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .visiting{
+      width: auto;
+      height: 1265px;
+      padding: 75px 240px;
+      background-color: #ffffff;
+    }
+
+    .textBorder{
+      padding-bottom: 25px;
+      border-bottom: 3px solid #710707;
+    }
+    .visiting h2{
+      font-family: Forum;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #9D8665;
+      text-transform: uppercase;
+    }
+    .visitingTopBox{
+      display: flex;
+      padding-top: 75px;
+      padding-bottom: 78px;
+    }
+    .visitingButtomBox{
+      display: flex;
+    }
+    .galery{
+      padding-right: 60px;
+    }
+    .nameGalery h2{
+      font-family: Forum;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #000;
+
+    }
+    .nameGalery{
+      padding-top: 25px;
+      padding-bottom: 9px;
+    }
+    .virtualTour h3{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000;
+
+    }
+    .virtualTour{
+      width: 300px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-top: 2px solid #710707;
+    }
+    .googlePanorama h3{
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000;
+
+    }
+    .explore{
+      width: auto;
+      height: 865px;
+      padding: 75px 240px;
+      background-color: #000000;
+      display: flex;
+    }
+    .exploreBorder {
+      width: 660px;
+      height: 90px;
+      padding-bottom: 116px;
+      border-bottom: 3px solid #710707;
+    }
+    .exploreBorder h2{
+      font-family: "Forum";
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #ffffff;
+      text-transform: uppercase;
+
+    }
+    .exploreText{
+      width: 660px;
+      height: 77px;
+      padding-top: 75px;
+    }
+    .exploreTextO{
+      width: 660px;
+      height: 77px;
+      padding-top: 100px;
+    }
+    .exploreTextO h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ffffff;
+    }
+      
+    .exploreText h3{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 39px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      color:#ffffff;      
+    }
+    .exploreLeftBlock{
+      padding-right: 60px;
+    }
+    .exploreRightBlock{
+      padding-top: 15px;
+    }
+    .video{
+      width: auto;
+      height: 1009px;
+      background-color: #fff;
+      padding: 90px 240px 0;
+    }
+    .vidioMein{
+      
+      width: 1440px;
+      height: 629px;
+      padding-left: 608px;
+      padding-top: 205px;
+      background-image: url(../img/vidioMein.jpg);
+    }
+    .battonPlay{
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      cursor:pointer;
+      overflow: hidden;     
+    }
+    .player{
+      background-color: #000000;
+      display: block;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 85px;
+    }
+    .playerButtons{
+      display: block;
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      cursor:pointer;
+      overflow: hidden; 
+      padding-left: 40px;
+    }
+    .lineOne {
+      border-radius: 1px;
+      display: block;
+      width: 820px;
+      height: 15px;
+      margin-left: 40px;
+    }
+    .lineTwo {
+      border-radius: 1px;
+      display: block;
+      width: 155px;
+      height: 15px;
+      margin-left: 25px;
+      margin-right: 8px;
+    }
+    .vidioAbout{
+      display: flex;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .vidioAbout h3{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 39px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      color: #000;
+
+    }
+    .vidioAbout h2{
+      font-family: Forum;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #9D8665;
+      text-transform: uppercase;
+
+    }
+    .journey{
+      padding-right: 115px;
+    }
+    .tickets{
+      width: 100%;
+      height: 893px;
+      padding: 72px 240px;
+      background-color: #000000;
+
+    }
+    .buyTicrts{
+      width: auto;
+      height: 90px;
+      
+    }
+    .buyTicrts h2{
+      font-family: Forum;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #ffffff;
+      text-transform: uppercase;
+
+
+    }
+    .buyConteiner{
+      width: auto;
+      height: 625px;
+      border-top: 3px solid #710707;
+      margin-top: 26px;
+      display: flex;
+      text-align: center;
+      padding-top: 75px;
+    }
+    .imgBuy{
+      padding-right: 60px;
+    }
+    .textBuy{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 32px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      color: #ffffff;
+      display: block;
+      padding-bottom: 53px;
+
+    }
+    form p{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      color: #ffffff;
+      padding-bottom: 49px;
+
+    }
+    .amount{
+      padding-bottom: 13px;
+      padding-left: 50px;
+    }
+    .blockScrollOne{
+      display: block;
+      display: flex;
+      align-items: center;
+      width: 150px;
+      height: 50px;
+      border: 4px solid #ffffff;
+      margin-bottom: 35px;
+    }
+    .blockScrollOne button p{
+      font-family: Roboto;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: center;
+
+      background-color: #000000;
+      color: #ffffff;
+
+    }
+    .blockScrollOne p{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #ffffff;
+
+    }
+    .amount h2{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ffffff;
+
+    }
+    .basic h3{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ffffff;
+
+    }
+    .basic{
+      padding-bottom: 14px;
+    }
+    .blockBuy{
+      display: block;
+      padding-left: 263px;
+    }
+    .total{
+      padding-top: 17px;
+      padding-bottom: 50px;
+    }
+    .total h3{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 1.649999976158142px;
+      text-align: left;
+      color: #ffffff;
+    }
+    .buttonBuyNow{
+      width: 150px;
+      height: 50px;
+      background-color: #fff;
+
+    }
+    .buttonBuyNow p{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 2px;
+      text-align: center;
+      color: #000;
+
+    }
+    .form{
+      width: auto;
+      height: 400px;
+    }
+    .minus{
+      margin-left: 13px;
+      margin-right: 37px;
+    }
+    .plus{
+      margin-left: 34px;
+    }
+    .contacts{
+      width: auto;
+      height: 810px;
+      margin: 75px 240px;
+    }
+    .textContacts{
+      font-family: Forum;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #9D8665;
+      text-transform: uppercase;
+      border-bottom: 3px solid #710707;
+      padding-bottom: 25px;
+    }
+    .contactsBlock{
+      display: block;
+      display: flex;
+      padding-top: 75px;
+     
+    }
+    .textCont{
+      width: auto;
+      height: 221px;
+      padding-right: 200px;
+      padding-top: 10px;
+    }
+    .textCont h3{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000;
+
+    }
+    .textCont h4{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000;
+
+    }
+    .textRoyal{
+      padding-top: 40px;
+    }
+    .textR{
+      padding-top: 20px;
+    }
+    footer{
+      width: auto;
+      height: 300px;
+      background-color: #000;
+      display: flex;
+      padding: 75px 240px;
+    }
+    .logoLouvre{
+      width: 195px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+    }
+    .blockNav{
+     display: flex;
+    }
+    .soceal{
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      margin-left: 20px;
+      
+    }
+    .menu_boldFooter a{
+      font-family: Forum;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #fff;
+      text-transform: uppercase;
+      padding-left: 20px;
+    }
+    .blockNav a{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 50px;
+      letter-spacing: 2px;
+      text-align: left;
+      color: #fff;
+      padding-left: 145px;
+      align-items: center;
+      padding-right: 25px;
+
+    }
+    .socialBlock{
+      padding-left: 363px;
+      padding-top: 90px;
+    }
+ 
