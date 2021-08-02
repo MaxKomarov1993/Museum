@@ -411,3 +411,195 @@
     .journey{
       padding-right: 115px;
     }
+    .tickets{
+      width: 100%;
+      height: 893px;
+      padding: 72px 240px;
+      background-color: #000000;
+
+    }
+    .buyTicrts{
+      width: auto;
+      height: 90px;
+      
+    }
+    .buyTicrts h2{
+      font-family: Forum;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #ffffff;
+      text-transform: uppercase;
+
+
+    }
+    .buyConteiner{
+      width: auto;
+      height: 625px;
+      border-top: 3px solid #710707;
+      margin-top: 26px;
+      display: flex;
+      text-align: center;
+      padding-top: 75px;
+    }
+    .imgBuy{
+      padding-right: 60px;
+    }
+    .textBuy{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 32px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      color: #ffffff;
+      display: block;
+      padding-bottom: 53px;
+
+    }
+    form p{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      color: #ffffff;
+      padding-bottom: 49px;
+
+    }
+    .amount{
+      padding-bottom: 13px;
+      padding-left: 50px;
+    }
+    .blockScrollOne{
+      display: block;
+      display: flex;
+      align-items: center;
+      width: 150px;
+      height: 50px;
+      border: 4px solid #ffffff;
+      margin-bottom: 35px;
+    }
+    .blockScrollOne button p{
+      font-family: Roboto;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: center;
+
+      background-color: #000000;
+      color: #ffffff;
+
+    }
+    .blockScrollOne p{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #ffffff;
+
+    }
+    .amount h2{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ffffff;
+
+    }
+    .basic h3{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ffffff;
+
+    }
+    .basic{
+      padding-bottom: 14px;
+    }
+    .blockBuy{
+      display: block;
+      padding-left: 263px;
+    }
+    .total{
+      padding-top: 17px;
+      padding-bottom: 50px;
+    }
+    .total h3{
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 1.649999976158142px;
+      text-align: left;
+      color: #ffffff;
+    }
+    .buttonBuyNow{
+      width: 150px;
+      height: 50px;
+      background-color: #fff;
+
+    }
+    .buttonBuyNow p{
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 2px;
+      text-align: center;
+      color: #000;
+
+    }
+    .form{
+      width: auto;
+      height: 400px;
+    }
+    .minus{
+      margin-left: 13px;
+      margin-right: 37px;
+    }
+    .plus{
+      margin-left: 34px;
+    }
+    .contacts{
+      width: auto;
+      height: 963px;
+      margin: 75px 240px;
+    }
+    .textContacts{
+      font-family: Forum;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #9D8665;
+      text-transform: uppercase;
+
+      
+    }
+    .textContacts h2{
+
+    }
+
