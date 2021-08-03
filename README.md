@@ -1,1 +1,1 @@
-https://MaxKomarov1993.github.io/Museum/museum/index
+https://MaxKomarov1993.github.io/
