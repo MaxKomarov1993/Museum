@@ -1,1 +1,1 @@
-https://MaxKomarov1993.github.io/Museum/museum/
+https://MaxKomarov1993.github.io/museum/museum/
